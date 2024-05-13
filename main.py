@@ -9,7 +9,7 @@ cap = cv2.VideoCapture('video.mp4')
 #cap.set(3,1280) Only for webcam
 #cap.set(4,720)
 
-model = YOLO('Yolo_weights\yolov8l.pt')
+model = YOLO('yolov8l.pt')
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
